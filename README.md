@@ -5,7 +5,7 @@
 
 ## How to
 
-	$> ./bin/wwms [YOUR API ACCESS TOKEN](https://collection.cooperhewitt.org/api/oauth2/authenticate/like-magic/)
+	$> ./bin/wwms ACCESS_TOKEN
 
 ## For example
 
@@ -17,6 +17,10 @@
 
 	$> ./bin/wwms ACCESS_TOKEN
 	I do them when my boss is on leave
+
+## Where do I get an access token?
+
+You can create yourself an access token using the Cooper-Hewitt's [Create yourself an API access token, like magic](https://collection.cooperhewitt.org/api/oauth2/authenticate/like-magic/) webpage.
 
 ## See also
 
