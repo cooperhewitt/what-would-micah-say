@@ -17,6 +17,9 @@
 	$> ./bin/wwms <ACCESS_TOKEN>
 	I do them when my boss is on leave
 
+	# For bonus points (if you're on a Mac)
+	$> ./bin/wwms <ACCESS_TOKEN> | say
+	
 ## What is "ACCESS_TOKEN" and where do I get one?
 
 You can create yourself an access token using the Cooper-Hewitt's handy ["Create yourself an API access token (like magic!)"](https://collection.cooperhewitt.org/api/oauth2/authenticate/like-magic/) webpage.
