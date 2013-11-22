@@ -1,6 +1,6 @@
 # What Would Micah Say?
 
-[@micahwalter](http://www.twitter.com/micahwalter] as a service.
+[@micahwalter](http://www.twitter.com/micahwalter) as a service.
 
 ## How to
 
