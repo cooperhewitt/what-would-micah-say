@@ -6,10 +6,18 @@ import urllib2
 
 if __name__ == '__main__':
 
-   token = sys.argv[1]
+   try:
+      token = sys.argv[1]
+   except Exception, e:
+      sys.stderr.write("Oops! You need to include an API access token")
+      sys.exit(1)
 
-   req = "https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.labs.whatWouldMicahSay&access_token=%s" % token
-   res = urllib2.urlopen(req)
+   try:
+      req = "https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.labs.whatWouldMicahSay&access_token=%s" % token
+      res = urllib2.urlopen(req)
+   except Exception, e:
+      sys.stderr.write("Oops! There's something wrong with Micah's API")
+      sys.exit(1)
 
    try:
       data = json.load(res)
@@ -17,8 +25,7 @@ if __name__ == '__main__':
       sys.exit(0)
 
    except Exception, e:
-      print e
-      sys.stdout.write("E_INSUFFICIENT_MICAH")
+      sys.stderr.write("E_INSUFFICIENT_MICAH")
       sys.exit(1)
 
 
