@@ -20,7 +20,7 @@
 
 ## Where do I get an access token?
 
-You can create yourself an access token using the Cooper-Hewitt's [Create yourself an API access token, like magic](https://collection.cooperhewitt.org/api/oauth2/authenticate/like-magic/) webpage.
+You can create yourself an access token using the Cooper-Hewitt's ["Create yourself an API access token (like magic!)"](https://collection.cooperhewitt.org/api/oauth2/authenticate/like-magic/) webpage.
 
 ## See also
 
